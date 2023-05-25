@@ -68,9 +68,9 @@ release_year: int
 
 CREATE TABLE movies (
   id SERIAL PRIMARY KEY,
-  title: text,
-  genres: text,
-  release_year: int
+  title text,
+  genres text,
+  release_year int
 );
 ```
 
